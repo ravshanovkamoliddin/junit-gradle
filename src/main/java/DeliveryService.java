@@ -2,7 +2,7 @@ public class DeliveryService {
 
     public static void calculateDeliveryCost(int distance, boolean isLarge, boolean isFragile, String loadLevel1) throws IllegalArgumentException {
         if (isFragile && distance > 30) {
-            throw new IllegalArgumentException("Хрупкие грузы нельзя возить на расстояние более 30 км");
+            throw new IllegalArgumentException("Fragile goods should not be transported over a distance of more than 30 km.");
         }
         double cost = 0;
 
