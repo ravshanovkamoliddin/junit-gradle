@@ -35,6 +35,7 @@ public class DeliveryServiceTest {
         double actual = 700;
         assertEquals(700.0, actual, 0.1);
 
+
         //assertEquals(expected, DeliveryService.calculateDeliveryCost(distance, isLarge, isFragile, loadLevel1), 0.1);
     }
 
